@@ -1,0 +1,168 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+:root {
+  --primaryColor: #CC5500;
+  --textBg: #fff;
+  --badges: #da9b3e;
+  --tags: #d3ae09;
+  --button: #CC5500;
+}
+/*global styles*/
+.badge-cate {
+  background-color: var(--primaryColor);
+  color: var(--textBg);
+}
+.badge-tags {
+  background-color: var(--primaryColor);
+  color: var(--textBg);
+}
+.main-title a {
+  color: var(--primaryColor);
+}
+.sub-title {
+  color: var(--primaryColor);
+  font-weight: 500;
+}
+.main-btn {
+  background: var(--button);
+  color: var(--textBg);
+}
+.post-title {
+  color: var(--primaryColor);
+  font-weight: 700;
+}
+.figure-caption i,
+.figure-caption p {
+  color: var(--primaryColor);
+}
+.page-item.active .page-link {
+  z-index: 1;
+  color: var(--textBg);
+  background-color: var(--primaryColor);
+  border-color: var(--primaryColor);
+}
+.page-link {
+  color: var(--primaryColor);
+  background: var(--textBg);
+  border: 1px solid var(--primaryColor);
+}
+.list-group-item i {
+  color: var(--primaryColor);
+}
+.back {
+  background: var(--primaryColor);
+}
+.list-unstyled li i,
+.list-unstyled li a {
+  color: var(--textBg);
+  text-decoration: none;
+}
+h6 {
+  color: var(--textBg);
+}
+/*====navbar====*/
+.nav-color {
+  background: var(--primaryColor);
+}
+.nav-link {
+  color: var(--textBg);
+}
+.nav-item a:hover {
+  color: #1d1c1c;
+}
+.navbar-brand {
+  color: var(--textBg);
+  font-weight: 700;
+}
+.navbar-brand:hover {
+  color: #1d1c1c;
+}
+.btn-search {
+  background: var(--textBg);
+}
+.btn-search i {
+  color: var(--primaryColor);
+}
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: var(--primaryColor);
+}
+.navbar-toggler {
+  outline: none!important;
+}
+.navbar-toggler i {
+  color: var(--textBg);
+}
+/* login */
+#login-form {
+  width: 50%;
+  margin: 5px auto;
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #fb774b;
+}
+#login-form input {
+  width: 50%;
+  margin: 5px auto;
+}
+#login-form #login-btn {
+  background-color: #fb774b;
+  color: white;
+}
+#login-form #register-url {
+  color: #fb774b;
+}
+/* Register */
+#register-form {
+  width: 50%;
+  margin: 5px auto;
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #fb774b;
+}
+#register-form input {
+  width: 50%;
+  margin: 5px auto;
+}
+#register-form #register-btn {
+  background-color: #fb774b;
+  color: white;
+}
+#register-form #login-url {
+  color: #fb774b;
+}
+/* Account */
+#account-form {
+  width: 50%;
+  margin: 35px auto;
+  text-align: center;
+  padding: 20px;
+  margin-top: 46px;
+}
+#account-form input {
+  margin: 5px auto;
+}
+#account-form #change-pass-btn {
+  color: white;
+  background-color: #fb774b;
+}
+.account-info-section {
+  padding-right: 20px; /* Hesap bilgilerini sola kaydırmak için eklenen satır */
+  text-align: center; /* Metin hizalama */
+}
+.account-info #logout-btn {
+  color: #fb774b;
+  text-decoration: none;
+}
+h3.font-weight-bold {
+  text-align: center; /* Başlık hizalama */
+}
+hr.mx-auto {
+  margin-left: 100px; /* Çizgiyi sola hizalamak için eklenen satır */
+}
+.vertical-line {
+  border-left: 2px solid #CC5500;
+  height: 100%;
+  margin: 0 auto;
+}
